@@ -20,8 +20,8 @@ This is a solution to the Blog card component challenge on Frontend Mentor. Fron
 
 ### Links
 
-- Solution URL: [https://github.com/rylry/blog-card-component-main](https://github.com/rylry/blog-card-component-main)
-- Live Site URL: [https://rylry.github.io/blog-card-component-main/](https://rylry.github.io/blog-card-component-main/)
+- Solution URL: [https://github.com/rylry/blog-preview-card-main](https://github.com/rylry/blog-preview-card-main)
+- Live Site URL: [https://rylry.github.io/blog-preview-card-main/](https://rylry.github.io/blog-preview-card-main/)
 
 ## My process
 
