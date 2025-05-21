@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: hsl(47, 88%, 63%);
+      font-family: 'Figtree', sans-serif;
+      margin: 0;
+    }
+    p {
+      font-size: 12px;
+      color: hsl(0, 0%, 42%);
+      margin: 0;
+    }
+    h2 {
+      font-size: 24px;
+      margin: 10;
+    }
+    .card {
+      width: 300px;
+      border-radius: 10px;
+      border-width: 1px;
+      border-color: black;
+      border-style: solid;
+      background-color: white;
+      overflow: hidden;
+      box-shadow: black 5px 5px;
+      padding: 15px;
+    }
+    .card-image {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .blog-type {
+      background-color: hsl(47, 88%, 63%);
+      color:black;
+      display: table;
+      border-radius: 5px;
+      padding: 5px;
+      margin: 20px 0px 10px 0px;
+      font-weight: 800;
+    }
+    .date {
+      color: hsl(0, 0%, 7%);
+      font-size: 12px;
+    }
+    .horizontal-layout {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+    .avatar {
+      width: 32px;
+      height: 32px;
+      margin-right: 10px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="./assets/images/illustration-article.svg" alt="Blog preview card image" class="card-image">
+    <div class="card-content">
+      <p class="blog-type">Learning</p>
+      <p class="date">Published Dec 21 2023</p>
+      <h2>HTML & CSS Foundations</h2>
+      <p>Learn the basics of HTML and CSS, the building blocks of web development. This course covers everything you need to know to get started.</p>
+      <div class="horizontal-layout">
+        <img src="./assets/images/image-avatar.webp" alt="Avatar image" class="avatar">
+        <p style="color: black;"><strong>Greg Hooper</strong></p>
+    </div>
+  </div>
+</body>
+</html>
